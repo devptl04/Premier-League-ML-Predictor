@@ -11,14 +11,19 @@ In this project, we'll predict the winner of football matches in the English Pre
 3. **Make predictions**: Using `scikit-learn` to build and train machine learning models.
 4. **Measure error and improve predictions**: Evaluating model performance and iterating to enhance accuracy.
 
+## Detailed Description
+
+- Created a Python-based algorithm to predict Premier League outcomes using four seasons of historical data.
+- Employed web scraping with Beautiful Soup to gather key match metrics like goals scored and conceded, and calculated rolling averages and performance metrics using Pandas.
+- Designed and trained logistic regression and random forest models using `scikit-learn`, optimized with hyperparameter tuning and cross-validation.
+- Created functions to predict match outcomes using expected goals and Poisson distribution for win probabilities, ultimately resulting in a 62.5% prediction accuracy.
+
 ## Code
 
 You can find the code for this project in the following Jupyter notebooks:
 
 - **scraper.ipynb**: A Jupyter notebook that scrapes match data.
 - **predictor.ipynb**: A Jupyter notebook that makes predictions based on the scraped data.
-
-
 
 ### Tools
 
